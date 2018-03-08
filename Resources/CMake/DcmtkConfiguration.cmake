@@ -352,6 +352,7 @@ if (NOT DCMTK_USE_EMBEDDED_DICTIONARIES)
       /usr/share/libdcmtk15
       /usr/share/libdcmtk16
       /usr/local/share/dcmtk
+      ${DCMTK_SOURCES_DIR}/dcmdata/data/
       )
 
     if (${DCMTK_DICTIONARY_DIR_AUTO} MATCHES "DCMTK_DICTIONARY_DIR_AUTO-NOTFOUND")
