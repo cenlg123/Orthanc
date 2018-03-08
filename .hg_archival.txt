@@ -1,0 +1,6 @@
+repo: 3959d33612ccaadc0d4d707227fbed09ac35e5fe
+node: ad8f30fc28d15f0b243b4127b62c90cd73b48618
+branch: default
+latesttag: dcmtk-3.6.1
+latesttagdistance: 144
+changessincelatesttag: 150
