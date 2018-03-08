@@ -97,7 +97,9 @@ To cross-compile Windows binaries under Linux using MinGW, please use
 the following command:
 
 $ cd [...]/OrthancBuild
+
 $ cmake -DCMAKE_TOOLCHAIN_FILE=[...]/Orthanc/Resources/MinGWToolchain.cmake -DSTATIC_BUILD=ON -DSTANDALONE_BUILD=ON -DCMAKE_BUILD_TYPE=Debug [...]/Orthanc
+
 $ make
 
 
@@ -106,5 +108,7 @@ Native Windows build with MinGW (VERY SLOW)
 -------------------------------------------
 
 $ cd [...]\OrthancBuild
+
 $ cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug [...]\Orthanc
+
 $ mingw32-make
