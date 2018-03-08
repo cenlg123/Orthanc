@@ -75,7 +75,8 @@ Native Windows build with Microsoft Visual Studio
 -------------------------------------------------
 
 $ cd [...]\OrthancBuild
-$ cmake -DSTANDALONE_BUILD=ON -DSTATIC_BUILD=ON -DALLOW_DOWNLOADS=ON -G "Visual Studio 8 2005" [...]\Orthanc
+
+$ cmake -DSTANDALONE_BUILD=OFF -DSTATIC_BUILD=ON -DALLOW_DOWNLOADS=ON -G "Visual Studio 12 2013" ..\Orthanc
 
 Then open the "[...]/OrthancBuild/Orthanc.sln" with Visual Studio.
 
