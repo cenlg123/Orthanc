@@ -96,8 +96,8 @@ Cross-Compilation for Windows under GNU/Linux
 To cross-compile Windows binaries under Linux using MinGW, please use
 the following command:
 
-$ cd ~/OrthancBuild
-$ cmake -DCMAKE_TOOLCHAIN_FILE=~/Orthanc/Resources/MinGWToolchain.cmake -DSTATIC_BUILD=ON -DSTANDALONE_BUILD=ON -DCMAKE_BUILD_TYPE=Debug ~/Orthanc
+$ cd [...]/OrthancBuild
+$ cmake -DCMAKE_TOOLCHAIN_FILE=[...]/Orthanc/Resources/MinGWToolchain.cmake -DSTATIC_BUILD=ON -DSTANDALONE_BUILD=ON -DCMAKE_BUILD_TYPE=Debug [...]/Orthanc
 $ make
 
 
